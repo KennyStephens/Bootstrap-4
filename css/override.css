@@ -1,0 +1,62 @@
+body{
+    background:#f2f2f2;
+    position: relative;
+}
+
+.fa-book{
+    margin-left: 5px;
+}
+
+
+.heroImage{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroImage h1, .heroImage p, .subscribe{
+    text-shadow: 1px 1px 3px black;
+    
+}
+
+.carousel-item img {
+    margin: 0 auto;
+    
+}
+
+.testimonialWrapper{
+    background: #c0eff7;
+    min-height: 437px;
+}
+
+#background {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.container h1 {
+  color: white;
+}
+
+ 
+
+@media (max-width: 576px) { 
+    .heroImage{
+        background-image: url(../images/hero_image.jpg);
+        height: 100vh;
+        background-size: cover;
+        
+        
+    }
+}
+
